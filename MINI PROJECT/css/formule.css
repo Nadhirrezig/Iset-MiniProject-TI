@@ -1,0 +1,35 @@
+.formule{
+    max-width: 1000px;
+    margin: 4em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.formule form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background: white;
+    padding: 1.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.formule label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.formule input, .formule textarea {
+    font-size: 1rem;
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.formule textarea {
+    resize: vertical;
+    height: 100px;
+}

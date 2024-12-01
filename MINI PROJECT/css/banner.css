@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2, h3, .custom-class {
+    font-family: 'Alfa Slab One', cursive;
+}
+.banner {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.banner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.banner-text {
+    font-size: 14px;
+}
+
+.highlight {
+    color: #f7a400;
+}
+
+.banner-link {
+    color: #f7a400;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.banner-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}

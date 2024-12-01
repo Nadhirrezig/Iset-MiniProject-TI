@@ -1,0 +1,136 @@
+
+.filter-section {
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+}
+.filter-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+.filter-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.filter-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.filter-options li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-options input {
+    margin-right: 10px;
+}
+.price-range {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-range input[type="range"] {
+    flex: 1;
+    appearance: none;
+    background: #ddd;
+    height: 4px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.price-range input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.price-value {
+    font-size: 14px;
+    font-weight: 500;
+}
+.size-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.size-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.size-button:hover {
+    border-color: #000;
+    background-color: #f0f0f0;
+}
+
+.size-button.active {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+.color-options {
+    display: flex;
+    gap: 10px;
+}
+.color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s;
+}
+.color-circle:hover {
+    border-color: #000;
+}
+.dress-style-select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+.dress-style-select:hover {
+    border-color: #000;
+}
+.apply-filters-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+.apply-filters-button:hover {
+    background-color: #444;
+}
